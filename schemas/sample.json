@@ -1,0 +1,10 @@
+{
+  "id": "Sample",
+  "type": "object",
+  "properties": {
+    "uuid": {"type": "string", "x-faker": "random.uuid"},
+    "timestamp": {"type": "integer", "x-faker": "timestamp.now"},
+    "ttl": {"type": "integer", "x-faker": "timestamp.future"},
+    "email": {"type": "string", "x-faker": "internet.email"}
+  }
+}

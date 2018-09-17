@@ -1,0 +1,37 @@
+{
+  "name": "genjson",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "CLI to generate fake JSON as a stream",
+  "author": "Nicolas Carlier <https://github.com/ncarlier>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncarlier/genjson.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "json",
+    "schema",
+    "fake",
+    "generator",
+    "stream"
+  ],
+  "bin": {
+    "genjson": "./index.js"
+  },
+  "pkg": {
+    "scripts": "custom-faker/**/*.js"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "commander": "^2.14.1",
+    "faker": "^4.1.0",
+    "json-schema-faker": "^0.5.0-rc12",
+    "request": "^2.83.0",
+    "rxjs": "^5.5.6",
+    "valid-url": "^1.0.9"
+  }
+}

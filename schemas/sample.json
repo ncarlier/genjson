@@ -6,5 +6,6 @@
     "timestamp": {"type": "integer", "x-faker": "timestamp.now"},
     "ttl": {"type": "integer", "x-faker": "timestamp.future"},
     "email": {"type": "string", "x-faker": "internet.email"}
-  }
+  },
+  "required": ["uuid", "timestamp", "email"]
 }
